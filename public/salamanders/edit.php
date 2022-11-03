@@ -11,6 +11,8 @@ if (is_post_request()) {
     echo "Salamander Name: $salamanderName<br>";
 } 
 
+echo "<h1>Stub for Edit Salamander</h1>";
+
 $pageTitle = "Subject Edit";
 include (SHARED_PATH . '/salamander-header.php');
 ?>

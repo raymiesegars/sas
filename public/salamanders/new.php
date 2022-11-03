@@ -11,7 +11,10 @@ if($test == '404') {
 } elseif($test == 'redirect') {
  redirect_to(url_for('/salamanders/index.php'));
 } 
+
+echo "<h1>Stub for New Salamander</h1>";
 ?>
+
 
 $pageTitle = "Create";
 include (SHARED_PATH . '/salamander-header.php');
